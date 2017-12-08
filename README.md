@@ -14,7 +14,7 @@ Linux:
 
 git clone https://github.com/avtarsandhu/leva.git
 
-cd Leva
+cd leva
 
 npm install
 
