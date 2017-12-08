@@ -1,0 +1,149 @@
+/* colors .... */
+
+.darkGray { color: #929292; }
+
+/*  Top Bar User Data */
+
+.app-header {
+  width: 100%;
+  background-color: #f2f2f2;
+  height: 5vh;
+  text-align: right;
+  padding-top: 1em;
+  padding-right: 1em;
+  padding-bottom: 3em;
+  position: relative;
+  font-size: 2vh;
+}
+
+/*  Sidebar Menu  */
+
+.app-sidebar {
+  min-width: 9em;
+  background-color: #222;
+  height: 100%;
+  width: 10vw;
+  color: white;
+  background-color: #534D63;
+  font-size: 0.9em;
+  position: fixed;
+  top: 0;
+}
+
+.sidebar-nav {
+  line-height: 4em;
+}
+
+.sidebar-nav > li > a {
+  color: white
+}
+
+.fa {
+  padding-right: 1vw;
+}
+
+
+/* component displaying  Investments , Circles and Following */
+
+.profile {
+    width: 90vw;
+    position: fixed;
+    left: 11em;
+}
+
+.profileM
+{
+    width: 73vw;
+    position: fixed;
+    left: 7em;
+}
+
+/* table headings */
+
+h6 > hr  {
+  color: black;
+  height: 0.2em;
+  padding-bottom:3px;
+  margin: 0;
+}
+
+.table-titles {
+  margin-left: 1em;
+  width: 98%;
+  font-size: 1.1em;
+  font-weight: bolder;
+  color: #6E6E71;
+
+}
+
+.grid-titles {
+  margin-left: 1em;
+  width: 98%;
+  color: #6E6E71;
+  font-size: 0.9em;
+  font-weight: bolder;
+}
+
+/* Mobile Databox formatting */
+
+.square {
+  background-color: #8389db;
+  color: white;
+  text-align: center;
+  height: 19vw;
+  width:19vw;
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+}
+
+.content {
+  font-size: 0.9em;
+  padding-top: 40%;
+}
+
+.col-xs-4.Mob {
+    padding: 0;
+}
+
+
+/* format data tables*/
+
+.table {
+  margin-bottom: 5px;
+  table-layout: fixed;
+}
+
+.react-bs-table-container {
+  padding-left: 2em;
+  width: 90%;
+  font-size: 1em;
+}
+
+td {
+  padding: 2px !Important;
+  margin: 2px !Important;
+}
+
+th {
+  padding: 2px !Important;
+  margin: 2px !Important;
+  background-color: #8389db;
+  color: white;
+}
+
+.row {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+
+.table-striped>tbody>tr:nth-child(odd)>td,
+.table-striped>tbody>tr:nth-child(odd)>th {
+   background-color: #cad4eb;
+ }
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #60677C;
+  color:  white;
+}
