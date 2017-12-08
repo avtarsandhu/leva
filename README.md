@@ -1,5 +1,7 @@
 #  Test website page for Leva
 
+* view at  [http://www.asandhu.xyz/]
+
 
 # Requirements
 
@@ -10,15 +12,13 @@ Displays HTML Page as shown in portfolio.jpeg and for mbile in portfolio_grid.jp
 
 Linux:
 
-git@gitlab.mt.local:web_software/smsapi.git
+git clone https://github.com/avtarsandhu/leva.git
 
-see requirements.txt
+cd Leva
 
+npm install
 
-## Setup / Usage
-
-
-git clone
+npm start (for development server)
 
 
 ## Release History
