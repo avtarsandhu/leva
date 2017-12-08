@@ -5,8 +5,8 @@
 
 # Requirements
 
-Displays HTML Page as shown in portfolio.jpeg and for mbile in portfolio_grid.jpg
-
+Displays HTML Page as shown in portfolio.jpeg and 
+grid version for viewport 0-767 pixels
 
 ## Installation
 
